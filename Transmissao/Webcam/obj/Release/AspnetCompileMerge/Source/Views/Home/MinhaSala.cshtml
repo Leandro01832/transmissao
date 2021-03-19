@@ -1,0 +1,46 @@
+﻿@model business.Classes.Abstrato.Usuario
+
+
+<div id="container" class="row" style="margin:0;">
+    <br />
+    <br />
+    <br />
+    <br />
+    <h1>
+        <span>Show</span>
+    </h1>
+    <div class="col-md-12">
+        <video id="gum" playsinline autoplay muted></video>
+    </div>
+
+
+
+    @if (ViewBag.condicao2)
+    {
+        <div class="col-md-3">
+            <video id="recorded" playsinline loop></video>
+        </div>
+
+        <div class="col-md-12">
+            <button id="start">Start camera</button>
+            <button id="record" disabled>Start Recording</button>
+            <button id="play" disabled>Play</button>
+            <button id="download" disabled>Download</button>
+        </div>
+
+        <div class="col-md-12">
+            <h4>Media Stream Constraints options</h4>
+            <p>Echo cancellation: <input type="checkbox" id="echoCancellation"></p>
+        </div>
+
+        <div>
+            <span id="errorMsg"></span>
+        </div>
+    }
+    
+
+</div>
+
+<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+<script src="~/Scripts/main.js" async></script>
+<script src="~/Scripts/ga.js"></script>

@@ -1,0 +1,15 @@
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\bin\Debug\RepositorioEF.dll.config
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\bin\Debug\RepositorioEF.dll
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\bin\Debug\RepositorioEF.pdb
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\bin\Debug\business.dll
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\bin\Debug\EntityFramework.dll
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\bin\Debug\EntityFramework.SqlServer.dll
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\bin\Debug\business.pdb
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\bin\Debug\business.dll.config
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\bin\Debug\EntityFramework.xml
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\bin\Debug\EntityFramework.SqlServer.xml
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\obj\Debug\RepositorioEF.csprojAssemblyReference.cache
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\obj\Debug\RepositorioEF.csproj.CoreCompileInputs.cache
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\obj\Debug\RepositorioEF.csproj.CopyComplete
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\obj\Debug\RepositorioEF.dll
+D:\codigo-github\transmitir\Transmissao\RepositorioEF\obj\Debug\RepositorioEF.pdb

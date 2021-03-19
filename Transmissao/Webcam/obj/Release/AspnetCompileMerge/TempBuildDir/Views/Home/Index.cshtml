@@ -1,0 +1,74 @@
+﻿@model business.Classes.Abstrato.Usuario
+
+@{
+    ViewBag.Title = "Index";
+    string Email = ViewBag.email;
+    string emails = Email + "," + Model.Email;
+    ViewBag.condicao2 = ViewBag.condicao;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="WebRTC code samples">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+    <meta itemprop="description" content="Client-side WebRTC code samples">
+    @*<meta itemprop="image" content="../../../images/webrtc-icon-192x192.png">*@
+    <meta itemprop="name" content="WebRTC code samples">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta id="theme-color" name="theme-color" content="#ffffff">
+
+
+    <title>Show</title>
+
+    @*<link rel="icon" sizes="192x192" href="../../../images/webrtc-icon-192x192.png">*@
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="~/Content/main.css">
+    <link rel="stylesheet" href="~/Content/main2.css">
+
+</head>
+
+<body>
+
+    <input type="hidden" value="@emails" id="Email" />
+
+    <div id="minhaSala" class="col-md-12">
+
+    </div>
+
+    <div class="col-md-12">
+        <h4>Usuario</h4>
+        <hr />
+        
+    </div>
+
+    @if (ViewBag.condicao)
+    {
+        <p>
+            @Html.ActionLink("Editar Usuario", "Edit", new { id = Model.Id })
+        </p>
+    }
+
+
+</body>
+</html>
+
+@section scripts{
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("#minhaSala").load("/Home/MinhaSala", { email: $("#Email").val() });
+
+        });
+
+    </script>
+
+}
+
+
+
+

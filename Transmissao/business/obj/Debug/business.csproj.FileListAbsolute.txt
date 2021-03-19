@@ -1,0 +1,12 @@
+D:\codigo-github\transmitir\Transmissao\business\bin\Debug\business.dll.config
+D:\codigo-github\transmitir\Transmissao\business\bin\Debug\business.dll
+D:\codigo-github\transmitir\Transmissao\business\bin\Debug\business.pdb
+D:\codigo-github\transmitir\Transmissao\business\bin\Debug\EntityFramework.dll
+D:\codigo-github\transmitir\Transmissao\business\bin\Debug\EntityFramework.SqlServer.dll
+D:\codigo-github\transmitir\Transmissao\business\bin\Debug\EntityFramework.xml
+D:\codigo-github\transmitir\Transmissao\business\bin\Debug\EntityFramework.SqlServer.xml
+D:\codigo-github\transmitir\Transmissao\business\obj\Debug\business.csproj.CoreCompileInputs.cache
+D:\codigo-github\transmitir\Transmissao\business\obj\Debug\business.csproj.CopyComplete
+D:\codigo-github\transmitir\Transmissao\business\obj\Debug\business.dll
+D:\codigo-github\transmitir\Transmissao\business\obj\Debug\business.pdb
+D:\codigo-github\transmitir\Transmissao\business\obj\Debug\business.csprojAssemblyReference.cache
